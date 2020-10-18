@@ -1,13 +1,21 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {count} from './number'
+import length from './number'
 
 const count1 = 17;
+
 const variable = 'samething';
+
 const count2 = 10;
+
 const undf = undefined;
+
 const zero = null;
+
 const fake = false;
+
 const trufhful = true;
 
 function App() {
@@ -41,6 +49,12 @@ function App() {
         </p>
         <p>
         {count1<count2?'count1':'count2'}
+        </p>
+        <p style={{
+          color:'red',
+          fontSize:60
+        }}>
+        {count * length}
         </p>
         <a
           className="App-link"
