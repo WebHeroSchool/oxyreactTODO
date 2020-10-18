@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {count} from './number'
-import length from './number'
+import {count} from './number.js'
+import length from './number.js'
 
 const count1 = 17;
 
@@ -54,7 +54,7 @@ function App() {
           color:'red',
           fontSize:60
         }}>
-        {count * length}
+        {'count * length ='+ count * length}
         </p>
         <a
           className="App-link"
